@@ -46,6 +46,8 @@ Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 
+Bundle 'vim-scripts/a.vim'
+
 if executable('ag')
   Bundle 'epmatsw/ag.vim.git'
 elseif executable('ack')
