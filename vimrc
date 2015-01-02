@@ -50,6 +50,8 @@ Bundle 'vim-scripts/a.vim'
 
 Bundle 'vim-scripts/diffchar.vim'
 
+Bundle 'caglartoklu/ftcolor.vim'
+
 if executable('ag')
   Bundle 'epmatsw/ag.vim.git'
 elseif executable('ack')
