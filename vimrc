@@ -94,6 +94,12 @@ Bundle 'vim-scripts/tar.vim'
 " javascript
 Bundle 'pangloss/vim-javascript'
 
+" Web
+Bundle 'othree/html5.vim'
+Bundle 'chrisyip/Better-CSS-Syntax-for-Vim'
+Bundle 'skammer/vim-css-color'
+Bundle 'hail2u/vim-css3-syntax'
+
 call vundle#end()
 filetype plugin indent on
 
