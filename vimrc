@@ -64,6 +64,8 @@ elseif executable('ack')
   Bundle 'mileszs/ack.vim'
 endif
 
+Bundle 'kshenoy/vim-signature'
+
 " markdown
 Bundle 'godlygeek/tabular'
 Bundle 'plasticboy/vim-markdown'
