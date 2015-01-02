@@ -41,6 +41,9 @@ call vundle#begin()
 Bundle 'gmarik/vundle'
 Bundle 'gmarik/Vundle.vim'
 
+" scala
+Bundle 'derekwyatt/vim-scala'
+
 call vundle#end()
 filetype plugin indent on
 
