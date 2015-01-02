@@ -88,6 +88,9 @@ Bundle 'octol/vim-cpp-enhanced-highlight'
 Bundle 'vim-jp/cpp-vim'
 Bundle 'phlip9/google-vim_cpp_indent'
 
+" tar
+Bundle 'vim-scripts/tar.vim'
+
 call vundle#end()
 filetype plugin indent on
 
