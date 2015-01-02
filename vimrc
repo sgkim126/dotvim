@@ -60,6 +60,12 @@ let g:indent_guides_enable_on_vim_startup = 1
 
 Bundle 'majutsushi/tagbar'
 
+" python
+Bundle 'hynek/vim-python-pep8-indent'
+Bundle 'vim-scripts/pythoncomplete'
+Bundle 'vim-scripts/python.vim--Vasiliev'
+Bundle 'jmcantrell/vim-virtualenv'
+
 if executable('ag')
   Bundle 'epmatsw/ag.vim.git'
 elseif executable('ack')
