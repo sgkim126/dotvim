@@ -41,6 +41,8 @@ call vundle#begin()
 Bundle 'gmarik/vundle'
 Bundle 'gmarik/Vundle.vim'
 
+Bundle 'Valloric/YouCompleteMe'
+
 " markdown
 Bundle 'godlygeek/tabular'
 Bundle 'plasticboy/vim-markdown'
