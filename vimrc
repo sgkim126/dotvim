@@ -91,6 +91,9 @@ Bundle 'phlip9/google-vim_cpp_indent'
 " tar
 Bundle 'vim-scripts/tar.vim'
 
+" javascript
+Bundle 'pangloss/vim-javascript'
+
 call vundle#end()
 filetype plugin indent on
 
