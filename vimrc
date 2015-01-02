@@ -48,6 +48,8 @@ Bundle 'scrooloose/nerdcommenter'
 
 Bundle 'vim-scripts/a.vim'
 
+Bundle 'vim-scripts/diffchar.vim'
+
 if executable('ag')
   Bundle 'epmatsw/ag.vim.git'
 elseif executable('ack')
