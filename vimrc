@@ -43,6 +43,9 @@ Bundle 'gmarik/Vundle.vim'
 
 Bundle 'Valloric/YouCompleteMe'
 
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
+
 " markdown
 Bundle 'godlygeek/tabular'
 Bundle 'plasticboy/vim-markdown'
