@@ -41,6 +41,10 @@ call vundle#begin()
 Bundle 'gmarik/vundle'
 Bundle 'gmarik/Vundle.vim'
 
+" markdown
+Bundle 'godlygeek/tabular'
+Bundle 'plasticboy/vim-markdown'
+
 " scala
 Bundle 'derekwyatt/vim-scala'
 
