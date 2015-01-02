@@ -52,6 +52,9 @@ Bundle 'vim-scripts/diffchar.vim'
 
 Bundle 'caglartoklu/ftcolor.vim'
 
+Bundle 'mattn/webapi-vim'
+Bundle 'mattn/gist-vim'
+
 if executable('ag')
   Bundle 'epmatsw/ag.vim.git'
 elseif executable('ack')
