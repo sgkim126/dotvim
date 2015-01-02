@@ -46,6 +46,12 @@ Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 
+if executable('ag')
+  Bundle 'epmatsw/ag.vim.git'
+elseif executable('ack')
+  Bundle 'mileszs/ack.vim'
+endif
+
 " markdown
 Bundle 'godlygeek/tabular'
 Bundle 'plasticboy/vim-markdown'
