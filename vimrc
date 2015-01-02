@@ -33,5 +33,14 @@ set showmatch
 
 set tags=tags;
 
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Bundle 'gmarik/vundle'
+Bundle 'gmarik/Vundle.vim'
+
+call vundle#end()
 filetype plugin indent on
 
