@@ -87,6 +87,9 @@ Bundle 'octol/vim-cpp-enhanced-highlight'
 Bundle 'vim-jp/cpp-vim'
 Bundle 'phlip9/google-vim_cpp_indent'
 
+" shader language
+Bundle 'tikhomirov/vim-glsl'
+
 " tar
 Bundle 'vim-scripts/tar.vim'
 
