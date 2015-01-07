@@ -33,6 +33,9 @@ set showmatch
 
 set tags=tags;
 
+set cindent
+set smartindent
+
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
