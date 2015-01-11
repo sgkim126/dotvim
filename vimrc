@@ -105,6 +105,7 @@ Bundle 'vim-scripts/tar.vim'
 
 " javascript
 Bundle 'pangloss/vim-javascript'
+Bundle 'jelera/vim-javascript-syntax'
 
 " Web
 Bundle 'othree/html5.vim'
