@@ -113,6 +113,9 @@ Bundle 'chrisyip/Better-CSS-Syntax-for-Vim'
 Bundle 'skammer/vim-css-color'
 Bundle 'hail2u/vim-css3-syntax'
 
+" React.js
+Bundle 'mxw/vim-jsx'
+
 call vundle#end()
 filetype plugin indent on
 
