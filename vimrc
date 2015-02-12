@@ -116,6 +116,9 @@ Bundle 'hail2u/vim-css3-syntax'
 " React.js
 Bundle 'mxw/vim-jsx'
 
+" Rust
+Bundle 'rust-lang/rust.vim'
+
 call vundle#end()
 filetype plugin indent on
 
