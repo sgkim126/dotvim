@@ -88,6 +88,7 @@ Bundle 'kshenoy/vim-signature'
 " markdown
 Bundle 'godlygeek/tabular'
 Bundle 'plasticboy/vim-markdown'
+let g:vim_markdown_folding_disabled=1
 
 " scala
 Bundle 'derekwyatt/vim-scala'
