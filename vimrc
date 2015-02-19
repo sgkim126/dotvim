@@ -43,6 +43,7 @@ set tabstop=4
 
 set textwidth=119
 
+nnoremap ; :
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
