@@ -121,6 +121,9 @@ Bundle 'mxw/vim-jsx'
 " Rust
 Bundle 'rust-lang/rust.vim'
 
+" Go
+Bundle 'fatih/vim-go'
+
 call vundle#end()
 filetype plugin indent on
 
