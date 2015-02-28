@@ -46,84 +46,86 @@ set textwidth=119
 nnoremap ; :
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" set rtp+=~/.vim/bundle/Vundle.vim
+" call vundle#begin()
 
-Bundle 'gmarik/vundle'
+call plug#begin('~/.vim/plugged')
 
-Bundle 'Valloric/YouCompleteMe'
+Plug 'gmarik/vundle'
 
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/nerdcommenter'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
 
-Bundle 'vim-scripts/a.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
 
-Bundle 'vim-scripts/diffchar.vim'
+Plug 'vim-scripts/a.vim'
 
-Bundle 'caglartoklu/ftcolor.vim'
+Plug 'vim-scripts/diffchar.vim'
 
-Bundle 'mattn/webapi-vim'
-Bundle 'mattn/gist-vim'
+Plug 'caglartoklu/ftcolor.vim'
 
-Bundle 'tpope/vim-fugitive'
+Plug 'mattn/webapi-vim'
+Plug 'mattn/gist-vim'
 
-Bundle 'nathanaelkane/vim-indent-guides'
+Plug 'tpope/vim-fugitive'
+
+Plug 'nathanaelkane/vim-indent-guides'
 let g:indent_guides_enable_on_vim_startup = 1
 
-Bundle 'majutsushi/tagbar'
+Plug 'majutsushi/tagbar'
 
 " python
-Bundle 'hynek/vim-python-pep8-indent'
-Bundle 'vim-scripts/pythoncomplete'
-Bundle 'vim-scripts/python.vim--Vasiliev'
-Bundle 'jmcantrell/vim-virtualenv'
+Plug 'hynek/vim-python-pep8-indent'
+Plug 'vim-scripts/pythoncomplete'
+Plug 'vim-scripts/python.vim--Vasiliev'
+Plug 'jmcantrell/vim-virtualenv'
 
 if executable('ag')
-  Bundle 'epmatsw/ag.vim.git'
+  Plug 'epmatsw/ag.vim.git'
 elseif executable('ack')
-  Bundle 'mileszs/ack.vim'
+  Plug 'mileszs/ack.vim'
 endif
 
-Bundle 'kshenoy/vim-signature'
+Plug 'kshenoy/vim-signature'
 
 " markdown
-Bundle 'godlygeek/tabular'
-Bundle 'plasticboy/vim-markdown'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 let g:vim_markdown_folding_disabled=1
 
 " scala
-Bundle 'derekwyatt/vim-scala'
+Plug 'derekwyatt/vim-scala'
 
 " c++
-Bundle 'octol/vim-cpp-enhanced-highlight'
-Bundle 'vim-jp/cpp-vim'
-Bundle 'phlip9/google-vim_cpp_indent'
+Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'vim-jp/cpp-vim'
+Plug 'phlip9/google-vim_cpp_indent'
 
 " shader language
-Bundle 'tikhomirov/vim-glsl'
+Plug 'tikhomirov/vim-glsl'
 
 " tar
-Bundle 'vim-scripts/tar.vim'
+Plug 'vim-scripts/tar.vim'
 
 " javascript
-Bundle 'pangloss/vim-javascript'
-Bundle 'jelera/vim-javascript-syntax'
+Plug 'pangloss/vim-javascript'
+Plug 'jelera/vim-javascript-syntax'
 
 " Web
-Bundle 'othree/html5.vim'
-Bundle 'chrisyip/Better-CSS-Syntax-for-Vim'
-Bundle 'skammer/vim-css-color'
-Bundle 'hail2u/vim-css3-syntax'
+Plug 'othree/html5.vim'
+Plug 'chrisyip/Better-CSS-Syntax-for-Vim'
+Plug 'skammer/vim-css-color'
+Plug 'hail2u/vim-css3-syntax'
 
 " React.js
-Bundle 'mxw/vim-jsx'
+Plug 'mxw/vim-jsx'
 
 " Rust
-Bundle 'rust-lang/rust.vim'
+Plug 'rust-lang/rust.vim'
 
 " Go
-Bundle 'fatih/vim-go'
+Plug 'fatih/vim-go'
 
-call vundle#end()
+call plug#end()
+
 filetype plugin indent on
-
