@@ -111,6 +111,9 @@ Plug 'vim-scripts/tar.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'jelera/vim-javascript-syntax'
 
+" TypeScript
+Plug 'leafgarland/typescript-vim'
+
 " Web
 Plug 'othree/html5.vim'
 Plug 'chrisyip/Better-CSS-Syntax-for-Vim'
