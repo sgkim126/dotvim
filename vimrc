@@ -110,6 +110,7 @@ Plug 'vim-scripts/tar.vim'
 " javascript
 Plug 'pangloss/vim-javascript'
 Plug 'jelera/vim-javascript-syntax'
+Plug 'jason0x43/vim-js-indent'
 
 " TypeScript
 Plug 'leafgarland/typescript-vim'
