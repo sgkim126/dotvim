@@ -130,6 +130,9 @@ Plug 'rust-lang/rust.vim'
 " Go
 Plug 'fatih/vim-go'
 
+" lex, yacc
+Plug 'justinmk/vim-syntax-extra'
+
 call plug#end()
 
 filetype plugin indent on
