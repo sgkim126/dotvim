@@ -14,6 +14,8 @@ imap <DOWN> <C-O>gj
 map <UP> gk
 map <DOWN> gj
 
+set mps+=<:>
+
 set nocompatible
 set backspace=indent,eol,start
 set startofline
