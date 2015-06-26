@@ -21,6 +21,7 @@ set backspace=indent,eol,start
 set startofline
 
 set hlsearch
+set incsearch
 set nowrapscan
 
 set wildmenu
