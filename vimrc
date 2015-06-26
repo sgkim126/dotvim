@@ -30,6 +30,7 @@ set showcmd
 set ruler
 set nonumber
 
+set noswapfile
 set nobackup
 
 set showmatch
