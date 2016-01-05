@@ -82,4 +82,7 @@ Plug 'fatih/vim-go'
 " lex, yacc
 Plug 'justinmk/vim-syntax-extra'
 
+" vimlint
+Plug 'ynkdir/vim-vimlparser' | Plug 'syngan/vim-vimlint'
+
 call plug#end()
