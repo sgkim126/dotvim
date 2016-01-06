@@ -30,7 +30,7 @@ Plug 'vim-scripts/python.vim--Vasiliev'
 Plug 'jmcantrell/vim-virtualenv'
 
 if executable('ag')
-  Plug 'epmatsw/ag.vim.git'
+  Plug 'epmatsw/ag.vim'
 elseif executable('ack')
   Plug 'mileszs/ack.vim'
 endif
