@@ -86,4 +86,7 @@ Plug 'justinmk/vim-syntax-extra'
 " vimlint
 Plug 'ynkdir/vim-vimlparser' | Plug 'syngan/vim-vimlint'
 
+" Kotlin
+Plug 'udalov/kotlin-vim'
+
 call plug#end()
