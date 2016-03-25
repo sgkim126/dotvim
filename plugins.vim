@@ -69,6 +69,7 @@ Plug 'othree/html5.vim'
 Plug 'chrisyip/Better-CSS-Syntax-for-Vim'
 Plug 'skammer/vim-css-color'
 Plug 'hail2u/vim-css3-syntax'
+Plug 'wavded/vim-stylus'
 
 " React.js
 Plug 'mxw/vim-jsx'
