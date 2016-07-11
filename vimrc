@@ -47,7 +47,6 @@ set tabstop=4
 
 set textwidth=119
 
-nnoremap ; :
 filetype off
 
 if filereadable(expand("\~/.vim/plugins.vim"))
