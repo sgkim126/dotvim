@@ -92,4 +92,7 @@ Plug 'udalov/kotlin-vim'
 " solidity
 Plug 'tomlion/vim-solidity'
 
+" elm
+Plug 'lambdatoast/elm.vim'
+
 call plug#end()
