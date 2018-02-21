@@ -89,4 +89,7 @@ Plug 'ynkdir/vim-vimlparser' | Plug 'syngan/vim-vimlint'
 " Kotlin
 Plug 'udalov/kotlin-vim'
 
+" solidity
+Plug 'tomlion/vim-solidity'
+
 call plug#end()
