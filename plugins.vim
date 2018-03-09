@@ -2,8 +2,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'gmarik/vundle'
 
-Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
-
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 
